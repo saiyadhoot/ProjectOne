@@ -2,18 +2,28 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>My Top Fives</title>
+            <link rel="stylesheet" href="css/topFiveStyle.css">
+            <!--fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <title>My Top Fives!</title>
         </head>
     <body>
         
         <header>
+            <div class="gif"><img src ="../img/projectgif.gif"></div>
             <nav>
                 <a href="../index.html">Home</a>
                 <a href="../inspo/inspo.html">Inspirations</a>
+                <a href="../topFives/topFives.html">Top Fives</a>
             </nav>
         <h1>My Top Fives</h1>
         </header>
     
+        <div class="flex-container">
+        
+            <div class="flexOne">
         <h2>Top 5 Favorite Games</h2>
         <ol>
             <li>Honkai: Star Rail</li>
@@ -23,6 +33,7 @@
             height = "150"/>
             
             <h5>This game is on the top of my list because it is a game I really the enjoy. The story is immerse, the characters are unique, and the turn-based combat system is always entertaining everytime I enter a battle.</h5>
+            
             <li>Splatoon 3</li>
 
             <img src = "img/splatoon.png"
@@ -47,9 +58,11 @@
             width = "300"
             height = "150"/>
         </ol>
-
+            </div>
+        
+            <div class="flexTwo">
         <h2>Top 5 Cities I Want To Visit</h2>
-        <ul>
+        <ol>
             <li>Tokyo, Japan</li>
 
             <img src = "img/tokyo.png"
@@ -81,6 +94,8 @@
             <img src = "img/okinawa.png"
             width = "300"
             height = "150"/>
-        </ul>
+        </ol>
+            </div>
+        </div>
     </body>
 </html>
